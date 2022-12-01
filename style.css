@@ -8,11 +8,17 @@ h1 {
     color: black;
     font-size: 25px;
     }
-p {
+.first > p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
 }
+
+p {
+    color: aliceblue;
+}
+
 h2 {
     font-family: 'Roboto', 'arial', sans-serif;
     font-size: 65px;
@@ -52,11 +58,15 @@ h3 {
     justify-content: center;
 }
 
+.global-section {
+    margin: 5% 15%
+}
+
 .container1 {
     background-color: #191970;
     display: flex;
     flex-flow: column;
-    width: 70%;
+    padding: 2em;
 }
 
 .cont-textimg {
@@ -75,10 +85,10 @@ h3 {
 }
 
 .img-item {
-    
+    padding: 16px;
 }
 
 .first {
     text-align: center;
-  }
+}
 
